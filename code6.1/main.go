@@ -12,6 +12,7 @@ func main() {
 
 }
 
+// 目的の値keyの添字を返す
 func binarySearch(key int) int {
 	left := 0
 	right := len(a) - 1
